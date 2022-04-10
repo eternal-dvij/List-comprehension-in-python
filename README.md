@@ -15,10 +15,10 @@ z = int(input())
 n = int(input())
 
 print([[a, b, c] for a in range(x+1) for b in range(y+1) for c in range(z+1) if(x+y+z! =n)])
-```python
+```
 
 # runner up score
-```Python
+```python
 
 if __name__ = '__main__':
 n = int(input())
@@ -32,7 +32,7 @@ a = max(arr)
 while(max(arr)==a):
 del arr[arr.index(max(arr))]
 print(max(arr))
-```python
+```
 	
 
 
