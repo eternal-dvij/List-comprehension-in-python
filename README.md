@@ -29,6 +29,10 @@ if(n>=2 and n<=10):
 if(len(arr)>=-100 and len(arr)<=100):
 a = max(arr)
 #stored the max value in a variable in case there are many same values of max then we have to delete all of them
+# del arr[arr.index(max(arr))]   of this statement is added at this position it will give the same result 
+```
+** think why we have not addes the statement "del arr[arr.index(max(arr))]" in the code **
+```python
 while(max(arr)==a):
 del arr[arr.index(max(arr))]
 print(max(arr))
